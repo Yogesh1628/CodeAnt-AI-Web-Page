@@ -1,6 +1,6 @@
 import React from "react";
 import "./Sidebar.css";
-import SidebarItem from "./SidebarItem";
+import SidebarItem from "./SidebarItem.jsx";
 import CodeAntLogo from "../CodeAntLogo/CodeAntLogo";
 import dropDownLogo from "../../assets/dropDownLogo.png";
 import HomeLogo from "../../assets/home.png";
@@ -24,11 +24,7 @@ const Sidebar = () => {
             </div>
           </div>
           <div className="sidebar-menu">
-            <SidebarItem
-              name="Repositories"
-              symbol={HomeLogo}
-              newStyle="true"
-            />
+            <SidebarItem name="Repositories" symbol={HomeLogo} newStyle="true" />
             <SidebarItem name="AI Code Review" symbol={CodeLogo} />
             <SidebarItem name="Cloud Security" symbol={CloudLogo} />
             <SidebarItem name="How to Use" symbol={BookLogo} />

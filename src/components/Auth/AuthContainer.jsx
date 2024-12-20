@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import SignIn from "./SignIn";
-import SignUp from "./SignUp";
+import SignIn from "./SignIn.jsx";
+import SignUp from "./SignUp.jsx";
 import "./Auth.css";
-import CodeAntLogo from "../CodeAntLogo/CodeAntLogo";
+import CodeAntLogo from "../CodeAntLogo/CodeAntLogo.jsx";
 
 const AuthContainer = () => {
   const [activeTab, setActiveTab] = useState("SignIn");

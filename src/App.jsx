@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import RepositoryScreen from "./RepositoryScreen/RepositoryScreen";
-import LoginScreen from "./LoginScreen/LoginScreen";
+import RepositoryScreen from "./RepositoryScreen/RepositoryScreen.jsx";
+import LoginScreen from "./LoginScreen/LoginScreen.jsx";
 import "./App.css";
 
 function App() {

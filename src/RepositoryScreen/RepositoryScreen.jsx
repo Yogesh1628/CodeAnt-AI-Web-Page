@@ -1,6 +1,6 @@
 import React from 'react';
-import Sidebar from '../components/LeftSidebar/Sidebar';
-import RightContent from '../components/RightContent/RightContent';
+import Sidebar from '../components/LeftSidebar/Sidebar.jsx';
+import RightContent from '../components/RightContent/RightContent.jsx';
 import './RepositoryScreen.css';
 
 function RepositoryScreen() {
