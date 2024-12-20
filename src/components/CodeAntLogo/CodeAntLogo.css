@@ -1,0 +1,18 @@
+.logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    justify-items: center;
+  }
+  .logo img {
+    width: 28.5px;
+    height: 32px;
+  }
+  #satisho-text {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 26.4px;
+    color: #181d27;
+    margin-left: 11px;
+  }

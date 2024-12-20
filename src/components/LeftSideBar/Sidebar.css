@@ -1,0 +1,108 @@
+.sidebar {
+  height: 100%;
+  width: 250px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #e5e5e5;
+  position: fixed;
+  overflow-y : scroll ;
+}
+.sidebar::-webkit-scrollbar{
+  display: none;
+}
+.sidebar-header {
+  margin-bottom: 16px;
+  padding: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.user-dropdown {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #d5d7da;
+  border-radius: 8px;
+  height: 40px;
+  width: 202px;
+  font-size: 14px;
+  color: #414651;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.user-dropdown img {
+  width: 13.51px;
+  height: 7.24px;
+}
+.user-dropdown p {
+  color: #181d27;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: var(--Lineheighttext-md);
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.sidebar-menu {
+  padding: 20px;
+}
+
+.sidebar-item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: #414651;
+  padding: 6px 14px 6px 14px;
+  margin: 2px 16px 0px 0px;
+  cursor: pointer;
+}
+
+.sidebar-item img {
+  width: 22.5px;
+  height: 17.97px;
+}
+
+.sidebar-item p {
+  margin-left: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #414651;
+}
+
+.new-sidebar-item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #1570EF;
+  border-radius: 8px;
+  color: #FFFFFF;
+  padding: 10px 14px 10px 14px;
+  margin: 2px 16px 0px 0px;
+  cursor: pointer;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.new-sidebar-item img {
+  width: 22.5px;
+  height: 17.97px;
+}
+
+.new-sidebar-item p {
+  margin-left: 8px;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+.sidebar-footer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
