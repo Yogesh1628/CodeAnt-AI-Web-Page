@@ -10,3 +10,11 @@
   margin-right: 50px;
 }
 
+@media (max-width: 820px) {
+  .stats-section{
+    display: none;
+  }
+  .logo-container{
+    display: none;
+  }
+}
